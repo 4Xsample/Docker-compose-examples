@@ -1,0 +1,30 @@
+##############################################
+# NO HE ACONSEGUIT QUE FUNCIONI EL DHCP AIXÍ #
+##############################################
+
+
+version: "3"
+
+# More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    network_mode: "host"
+#    ports:
+#     - "153:53/tcp"
+#      - "153:53/udp"
+#      - "167:67/udp"
+#      - "1180:80/tcp"
+    environment:
+      TZ: 'Europe/Andorra'
+      WEBPASSWORD: 'somesecurepassword'
+    # Volumes store your data between container upgrades
+    volumes:
+      - ./etc-pihole:/etc/pihole
+      - ./etc-dnsmasq.d:/etc/dnsmasq.d
+    # Recommended but not required (DHCP needs NET_ADMIN)
+    #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
