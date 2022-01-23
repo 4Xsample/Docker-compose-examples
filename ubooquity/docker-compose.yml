@@ -1,0 +1,22 @@
+version: "2.1"
+services:
+  
+  ubooquity:  
+    image: lscr.io/linuxserver/ubooquity
+    container_name: ubooquity
+
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Andorra
+
+    volumes:
+      - /data/container/ibooquity:/config
+      - /media/pi/MainStorage/ibooquity/books:/books
+      - /media/pi/MainStorage/ibooquity/comics:/comics
+      - /media/pi/MainStorage/ibooquity/files:/files
+
+    ports:
+      - 2202:2202
+      - 2203:2203
+    restart: unless-stopped
