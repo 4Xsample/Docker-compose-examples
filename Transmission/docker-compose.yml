@@ -1,8 +1,10 @@
 version: "2.1"
 services:
+
   transmission:
     image: lscr.io/linuxserver/transmission
     container_name: transmission
+
     environment:
       - PUID=1000
       - PGID=1000
@@ -12,12 +14,15 @@ services:
       - PASS=somesecurecode #optional
 #     - WHITELIST=iplist #optional
 #     - HOST_WHITELIST=dnsnane list #optional
+
     volumes:
       - /media/pi/MainStorage/Torrent/Config:/config
       - /media/pi/MainStorage/Torrent/Downloads:/downloads
       - /media/pi/MainStorage/Torrent/Watch:/watch
+
     ports:
       - 9091:9091
       - 51413:51413
       - 51413:51413/udp
+
     restart: unless-stopped

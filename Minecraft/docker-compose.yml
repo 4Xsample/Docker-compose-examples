@@ -10,7 +10,6 @@ services:
 
       environment:
             EULA: "TRUE"
-            REPLACE_ENV_VARIABLES: "true"
             SERVER_NAME: "4Xland"
             MOTD: "Benvinguts a miaucraft"
             DIFFICULTY: "hard"
@@ -33,7 +32,6 @@ services:
             ONLINE_MODE: "true"
             ALLOW_FLIGHT: "true"
             GENERATE_STRUCTURES: "true"
-            ENABLE_COMMAND_BLOCK: "true"
 #           OVERRIDE_WHITELIST: "true"
             WHITELIST: "ForXsample,ged0m,tulcis,qsflay"
 #            OVERRIDE_OPS: "true"

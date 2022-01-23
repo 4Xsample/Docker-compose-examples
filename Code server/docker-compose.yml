@@ -1,8 +1,10 @@
 version: "2.1"
 services:
+
   code-server:
     image: lscr.io/linuxserver/code-server
     container_name: code-server
+
     environment:
       - PUID=1000
       - PGID=1000
@@ -13,8 +15,11 @@ services:
 #      - SUDO_PASSWORD_HASH= #optional
 #      - PROXY_DOMAIN=the.proxy.domain #optional
 #      - DEFAULT_WORKSPACE=/config/workspace #optional
+
     volumes:
       - /data/container/codeserver:/config
+
     ports:
       - 8443:8443
+
     restart: unless-stopped

@@ -1,0 +1,1 @@
+Client de torrent bastant complet (falta trastejar-lo una mica encara)
