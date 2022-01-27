@@ -7,7 +7,7 @@
 <a href="https://twitter.com/4xsample/follow?screen_name=shields_io">
 <img src="https://img.shields.io/twitter/follow/4xsample?style=social&logo=twitter" alt="follow on Twitter"></a>
 
-![This is an image](https://github.com/4Xsample/Docker-compose-examples/blob/main/docker.png?raw=true)
+![Exemples de contenidors](https://github.com/4Xsample/Docker-compose-examples/blob/main/docker.png)
 
 # Contenidors punt per desplegar.
 
