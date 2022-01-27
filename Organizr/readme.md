@@ -7,4 +7,7 @@
 <a href="https://twitter.com/4xsample/follow?screen_name=shields_io">
 <img src="https://img.shields.io/twitter/follow/4xsample?style=social&logo=twitter" alt="follow on Twitter"></a>
 
-Un organitzador de serveis per el servidor domèstic.
+# Organizr
+### Tots els serveis del teu servidor domestic en una sola URL
+
+[Organizr](https://organizr.app) Es un organitzador de serveis per el servidor domèstic, així no haurem d'estar recordant dotzenes de ip i ports i a quin servei està vinculada cada combinació.

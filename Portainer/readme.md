@@ -10,6 +10,6 @@
 # Portainer
 ### Web ui per Docker.
 
-[Portainer](https://www.portainer.io) es una interficie d'usuari via web per Docker.
+[Portainer](https://portainer.io): Portainer es una interficie Open-Source lleugera per administrar hosts de Docker o eixams de clusters.
 
 No sabria treballar amb Docker sense aquesta merda.

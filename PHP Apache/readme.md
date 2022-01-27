@@ -7,7 +7,10 @@
 <a href="https://twitter.com/4xsample/follow?screen_name=shields_io">
 <img src="https://img.shields.io/twitter/follow/4xsample?style=social&logo=twitter" alt="follow on Twitter"></a>
 
-Un servidor apache senzill amb php, rapid i facil de desplegar per poder fer alguna prova.
+# Apache/PHP
+# A punt per desplegar.
+
+[php:8.0-apache](https://hub.docker.com/r/oberd/php-8.0-apache) es una imatge preparada per desplegar rapid i facil un servidor apache senzill amb php, per poder fer alguna prova.
 
 Es el que uso a la meva màquina virtual de ORACLE per poder servir unes apis.
 

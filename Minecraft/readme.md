@@ -7,6 +7,10 @@
 <a href="https://twitter.com/4xsample/follow?screen_name=shields_io">
 <img src="https://img.shields.io/twitter/follow/4xsample?style=social&logo=twitter" alt="follow on Twitter"></a>
 
-La forma mes ràpida de desplegar un servidor de minecraft.
+# Minecraft
+### Servidors personalitzats preparats per desplegar.
+
+
+[itzg/minecraft-server](https://hub.docker.com/r/itzg/minecraft-server) es la forma mes ràpida de desplegar un servidor de [minecraft](https://www.minecraft.net/).
 
 Aquest contenidor el tinc corrent en una màquina virtual de ORACLE amb arquitectura x86.

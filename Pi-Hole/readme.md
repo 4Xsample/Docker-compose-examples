@@ -7,7 +7,10 @@
 <a href="https://twitter.com/4xsample/follow?screen_name=shields_io">
 <img src="https://img.shields.io/twitter/follow/4xsample?style=social&logo=twitter" alt="follow on Twitter"></a>
 
-Filtre de publicitat per DNS.
+# Pi-Hole
+### Add block per tota la xarxa.
+
+[Pi-Hole](https://pi-hole.net) es un filtre de publicitat per DNS que protegeix tots els dispositius conectats a la meva xarxa de la publicitat a la xarxa.
 
 Es la feina principal de la meva raspberry.
 
