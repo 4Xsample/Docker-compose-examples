@@ -10,4 +10,4 @@
 # Organizr
 ### Tots els serveis del teu servidor domestic en una sola URL
 
-[Organizr](https://organizr.app) Es un organitzador de serveis per el servidor domèstic, així no haurem d'estar recordant dotzenes de ip i ports i a quin servei està vinculada cada combinació.
+[Organizr](https://organizr.us) o [Organizr Reddit](https://www.reddit.com/r/organizr/): Organizr integra tots els serveis de la teva xarxa en una sola web. Ja no haurem de recordar una dotzena de ips i ports diferents per accedir a tot. Avui en dia es el millor frontend per servidors domestics (o no tant domestics).

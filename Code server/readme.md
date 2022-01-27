@@ -7,4 +7,7 @@
 <a href="https://twitter.com/4xsample/follow?screen_name=shields_io">
 <img src="https://img.shields.io/twitter/follow/4xsample?style=social&logo=twitter" alt="follow on Twitter"></a>
 
-L'editor Visual Studio via web per excelencia!
+# Code Server
+### Per quan no podem instalar un editor de [Visual Studio](https://visualstudio.microsoft.com/)
+
+[linuxserver/code-server](https://hub.docker.com/r/linuxserver/code-server) es l'editor [Visual Studio](https://visualstudio.microsoft.com/) via web per excelencia!
