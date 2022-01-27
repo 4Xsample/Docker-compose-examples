@@ -43,3 +43,5 @@ M'han funcionat amb un exit mitjà en una [raspberry pi 4](https://www.raspberry
 [itzg/minecraft-server](https://hub.docker.com/r/itzg/minecraft-server) es la forma mes ràpida de desplegar un servidor de [minecraft](https://www.minecraft.net/).
 
 [linuxserver/code-server](https://hub.docker.com/r/linuxserver/code-server) es l'editor [Visual Studio](https://visualstudio.microsoft.com/) via web per excelencia!
+
+[Homebridge](https://homebridge.io) es la solució per integrar dispositius i serveis no compatibles amb [Apple Homekit](https://www.apple.com/ios/home/).
