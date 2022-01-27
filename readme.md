@@ -7,7 +7,9 @@
 <a href="https://twitter.com/4xsample/follow?screen_name=shields_io">
 <img src="https://img.shields.io/twitter/follow/4xsample?style=social&logo=twitter" alt="follow on Twitter"></a>
 
-# A punt per desplegar.
+![This is an image](https://github.com/4Xsample/Docker-compose-examples/blob/main/docker.png?raw=true)
+
+# Contenidors punt per desplegar.
 
 Aquests docker-compose.yml estan tal com estan, no necessiten altres arxius .config ni altres detalls.
 
