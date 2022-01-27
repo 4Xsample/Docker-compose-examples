@@ -7,6 +7,9 @@
 <a href="https://twitter.com/4xsample/follow?screen_name=shields_io">
 <img src="https://img.shields.io/twitter/follow/4xsample?style=social&logo=twitter" alt="follow on Twitter"></a>
 
-Interficie d'usuari via web per Docker.
+# Portainer
+### Web ui per Docker.
+
+[Portainer](https://www.portainer.io) es una interficie d'usuari via web per Docker.
 
 No sabria treballar amb Docker sense aquesta merda.

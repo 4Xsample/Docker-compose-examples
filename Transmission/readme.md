@@ -7,4 +7,7 @@
 <a href="https://twitter.com/4xsample/follow?screen_name=shields_io">
 <img src="https://img.shields.io/twitter/follow/4xsample?style=social&logo=twitter" alt="follow on Twitter"></a>
 
-Un bon client de torrent amb interficie via web.
+# Transmission
+### Bittorrent web client.
+
+[Transmission](https://transmissionbt.com): Un bon client de torrent amb interficie via web.

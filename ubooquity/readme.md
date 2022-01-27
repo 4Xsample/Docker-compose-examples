@@ -11,6 +11,8 @@
 # Servidor de eBooks uBooquity
 ### Per tenir la colecció de ePub, pdf i companyia disponible arreu.
 
+[uBooquity](https://vaemendis.net/ubooquity/): Es el servidor de eBooks, en diversos formats, per poder accedir des d'arreu als nostres llibres i pdf.
+
 Un cop instal·lat es pot entrar a les interficies a les seguents direccions:
 
 Interficie d'usuari: `http://x.x.x.x:2202/ubooquity/`

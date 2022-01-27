@@ -7,6 +7,9 @@
 <a href="https://twitter.com/4xsample/follow?screen_name=shields_io">
 <img src="https://img.shields.io/twitter/follow/4xsample?style=social&logo=twitter" alt="follow on Twitter"></a>
 
-Per poder accedir a la consola via web sense necessitar un client de ssh.
+# Shellinabox
+### Web Shell client.
+
+[Shellinabox](https://github.com/shellinabox/shellinabox) Es una solució interessant per poder accedir a la consola via web sense necessitar un client de ssh.
 
 No te suport per la arquitectura arm64 aixi que no l'he pogut fer correr degudament.

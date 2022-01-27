@@ -9,7 +9,7 @@
 
 # NginX Proxy Manager
 
-[NginX](https://www.nginx.com) es un servidor web lleuger i potent que fins hi tot pot servir-nos de reverse proxy.
+[NginX Proxy Manager](https://nginxproxymanager.com): Es un servidor proxy molt lleuger basat en el servidor web [NginX](https://www.nginx.com)
 
 Amb aquest stack tenim tant el contenidor del servidor web com el de la base de dades (en aquest cas usarem una lleugera [Mariadb](https://mariadb.org))
 

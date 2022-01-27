@@ -16,12 +16,21 @@ M'han funcionat amb un exit mitjà en una [raspberry pi 4](https://www.raspberry
 
 ### Media Servers
 
+[Portainer](https://portainer.io): Portainer es una interficie Open-Source lleugera per administrar hosts de Docker o eixams de clusters.
+
+[Organizr](https://organizr.us) o [Organizr Reddit](https://www.reddit.com/r/organizr/): Organizr integra tots els serveis de la teva xarxa en una sola web. Ja no haurem de recordar una dotzena de ips i ports diferents per accedir a tot. Avui en dia es el millor frontend per servidors domestics (o no tant domestics).
+
 [Plex](https://app.plex.tv): Plex es el servidor domestic de contingut que ens permet tenir disponibles tots els continguts que els nostres serveis de stram no ens ofereixen.
 
 [ruTorrent](https://hub.docker.com/r/linuxserver/rutorrent): ruTorrent es una excelent interficie d'usuari via web per rTorrent (desgraciadament no te per posar codi d'acces)
 
-[Organizr](https://organizr.us) o [Organizr Reddit](https://www.reddit.com/r/organizr/): Organizr integra tots els serveis de la teva xarxa en una sola web. Ja no haurem de recordar una dotzena de ips i ports diferents per accedir a tot. Avui en dia es el millor frontend per servidors domestics (o no tant domestics).
-
-[Portainer](https://portainer.io): Portainer es una interficie Open-Source lleugera per administrar hosts de Docker o eixams de clusters.
+[Transmission](https://transmissionbt.com): Un bon client de torrent amb interficie via web.
 
 [NetData](https://my-netdata.io): El visualitzador definitiu en temps deal de tot el que passa als teus sistemes i aplicacions.
+
+[NginX Proxy Manager](https://nginxproxymanager.com): Es un servidor proxy molt lleuger basat en el servidor web [NginX](https://www.nginx.com).
+
+[uBooquity](https://vaemendis.net/ubooquity/): Es el servidor de eBooks, en diversos formats, per poder accedir des d'arreu als nostres llibres i pdf.
+
+[Shellinabox](https://github.com/shellinabox/shellinabox) Es una solució interessant per poder accedir a la consola via web sense necessitar un client de ssh.
+
