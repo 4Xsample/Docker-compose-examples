@@ -22,6 +22,8 @@ M'han funcionat amb un exit mitjà en una [raspberry pi 4](https://www.raspberry
 
 [Plex](https://app.plex.tv): Plex es el servidor domestic de contingut que ens permet tenir disponibles tots els continguts que els nostres serveis de stram no ens ofereixen.
 
+[Pi-Hole](https://pi-hole.net) es un filtre de publicitat per DNS que protegeix tots els dispositius conectats a la meva xarxa de la publicitat a la xarxa.
+
 [ruTorrent](https://hub.docker.com/r/linuxserver/rutorrent): ruTorrent es una excelent interficie d'usuari via web per rTorrent (desgraciadament no te per posar codi d'acces)
 
 [Transmission](https://transmissionbt.com): Un bon client de torrent amb interficie via web.
@@ -34,3 +36,10 @@ M'han funcionat amb un exit mitjà en una [raspberry pi 4](https://www.raspberry
 
 [Shellinabox](https://github.com/shellinabox/shellinabox) Es una solució interessant per poder accedir a la consola via web sense necessitar un client de ssh.
 
+[ruTorrent](https://github.com/Novik/ruTorrent) es una interficie web per gestionar el [rTorrent](https://github.com/rakshasa/rtorrent) molt versatil i completa (falta trastejar-lo una mica encara).
+
+[php:8.0-apache](https://hub.docker.com/r/oberd/php-8.0-apache) es una imatge preparada per desplegar rapid i facil un servidor apache senzill amb php, per poder fer alguna prova.
+
+[itzg/minecraft-server](https://hub.docker.com/r/itzg/minecraft-server) es la forma mes ràpida de desplegar un servidor de [minecraft](https://www.minecraft.net/).
+
+[linuxserver/code-server](https://hub.docker.com/r/linuxserver/code-server) es l'editor [Visual Studio](https://visualstudio.microsoft.com/) via web per excelencia!
