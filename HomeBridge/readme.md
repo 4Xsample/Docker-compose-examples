@@ -41,7 +41,7 @@ Per entrar a la interficie [Homebridge UI](https://github.com/oznu/homebridge-co
 
 El nom d'usuari per defecte es **`admin`** i el codi d'acces es **`admin`**.
 
-<p align="center">
+<p align="left">
   <img width="600px" src="https://user-images.githubusercontent.com/3979615/71886653-b16d3f80-3190-11ea-9ff8-49dc4ae4fff0.png">
 </p>
 
