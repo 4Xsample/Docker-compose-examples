@@ -13,4 +13,4 @@
 
 [itzg/minecraft-server](https://hub.docker.com/r/itzg/minecraft-server) es la forma mes ràpida de desplegar un servidor de [minecraft](https://www.minecraft.net/).
 
-Aquest contenidor el tinc corrent en una màquina virtual de ORACLE amb arquitectura x86.
+Aquest contenidor el tinc corrent en una màquina virtual de [ORACLE Cloud](https://github.com/4Xsample/Servidor-gratis-Oracle-Cloud) amb arquitectura x86.
