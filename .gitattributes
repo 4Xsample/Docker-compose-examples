@@ -1,4 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-* readme.md text=text
+* readme.md text
 * .yml text=dockerfile
