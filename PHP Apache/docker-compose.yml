@@ -1,29 +1,12 @@
-version: "3.2"
+version: '3.8'
 services:
-  php:
-    build: './php/'
-    networks:
-      - backend
+
+  php-apache-environment:
+    container_name: php-apache
+    image: php:8.0-apache
+
     volumes:
-      - /var/www/html:/var/www/html
-  apache:
-    build: './apache/'
-    depends_on:
-      - php
-      - mysql
-    networks:
-      - frontend
-      - backend
+      - ./php/src:/var/www/html/
+
     ports:
-      - "8080:80"
-    volumes:
-      - /var/www/html:/var/www/html
-  mysql:
-    image: mysql:5.6.40
-    networks:
-      - backend
-    environment:
-      - MYSQL_ROOT_PASSWORD=somesafepassword
-networks:
-  frontend:
-  backend:
+      - 80:80
