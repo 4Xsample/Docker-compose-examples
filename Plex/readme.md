@@ -9,4 +9,4 @@
 
 # Plex media server
 
-[Plex](https://www.plex.tv) El servidor domestic de contingut que ens permet tenir disponibles tots els continguts que els nostres serveis de stram no ens ofereixen.
+[Plex](https://www.plex.tv) El servidor domestic de contingut que ens permet tenir disponibles tots els continguts que els nostres serveis de stream no ens ofereixen.
