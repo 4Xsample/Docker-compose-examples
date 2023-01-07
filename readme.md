@@ -5,14 +5,23 @@
 
 
 
-# Contenidors a punt per desplegar.
+# Repositori de Docker Compose pel Home Lab
+
+Aquest repositori conté els fitxers Docker Compose que he utilitzat per configurar el meu home lab. Cada carpeta del repositori correspon a un servei o aplicació concreta, i inclou el fitxer `docker-compose.yml` amb la configuració dels containers.
+
+## Contenidors a punt per desplegar.
 
 Aquests docker-compose.yml estan tal com estan, no necessiten altres arxius .config ni altres detalls.
 
-M'han funcionat amb un exit mitjà en una [raspberry pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) amb [raspberry pi os](https://www.raspberrypi.com/software/) actualitzat a la ultima versió, funcionant en la ultima versió de [docker](https://www.docker.com) i administrat des de la versió mes recent de [portainer](https://www.portainer.io) disponible.
+Per utilitzar un dels compose files, es pot fer servir el comandament `docker-compose up -d` des de la línia de comandes o bé es pot importar el fitxer `docker-compose.yml` a Portainer com a stack. En el meu cas, he comprovat que aquest últim mètode funciona amb èxit en una [raspberry pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) amb [raspberry pi os](https://www.raspberrypi.com/software/) actualitzat a la última versió, funcionant en la última versió de [docker](https://www.docker.com) i administrat des de la versió més recent de [portainer](https://www.portainer.io) disponible.
 
+Assegureu-vos de tenir instal·lat [docker](https://www.docker.com) al vostre sistema abans de desplegar els contenidors.
 
-### Media Servers
+Estic obert a suggeriments o millores dels fitxers Docker Compose. Si voleu fer alguna contribució, no dubteu en fer un pull request al repositori.
+
+Estic disposat a ajudar en qualsevol dubte o problema que puguis tenir en relació amb els fitxers Docker Compose del repositori. No dubteu en obrir una issue si ho necessiteu.
+
+## Home Lab
 
 [Portainer](https://portainer.io): Portainer es una interficie Open-Source lleugera per administrar hosts de Docker o eixams de clusters.
 

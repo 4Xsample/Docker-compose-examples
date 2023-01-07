@@ -6,6 +6,18 @@
 
 
 # Code Server
-### Per quan no podem instalar un editor de [Visual Studio](https://visualstudio.microsoft.com/)
 
-[linuxserver/code-server](https://hub.docker.com/r/linuxserver/code-server) es l'editor [Visual Studio](https://visualstudio.microsoft.com/) via web per excelencia!
+Aquest repositori conté el fitxer `docker-compose.yml` per a executar [Code Server](https://github.com/cdr/code-server) a través de Docker.
+
+## Què és Code Server?
+
+Code Server és una implementació del Visual Studio Code com a aplicació web. Això significa que podeu executar Visual Studio Code a qualsevol navegador, ja sigui a la vostra màquina local o a qualsevol altra màquina a través d'internet. Això és molt útil si voleu utilitzar Visual Studio Code en un entorn remot, com ara un servidor, sense haver d'instal·lar-lo directament en aquesta màquina.
+
+## Com utilitzar aquest repositori
+
+1. Assegureu-vos que teniu instal·lat Docker en la vostra màquina. Podeu descarregar Docker [aquí](https://www.docker.com/get-started).
+2. Cloneu aquest repositori o descarregueu-lo com a zip.
+3. A la carpeta del repositori, executeu el comandament `docker-compose up -d` per iniciar el contenidor de Code Server.
+4. Obrir el navegador i anar a l'adreça `http://localhost:8443`. Això hauria d'obrir l'aplicació de Code Server.
+
+Espero que aquesta informació us sigui útil! Si teniu qualsevol pregunta o problema, no dubteu en preguntar.
