@@ -47,3 +47,6 @@ El nom d'usuari per defecte es **`admin`** i el codi d'acces es **`admin`**.
 * `-e PGID` - Important definir la ID del grup d'usuari
 * `-e PUID` - Important definir la ID de l'usuari
 * `-e TZ` - Per [Informació dels fusos horaris](https://ca.wikipedia.org/wiki/Base_de_dades_tz) e.g. `-e TZ=Europe/Andorra`
+
+## Disclaimer: 
+*Aquest codi s'ofereix tal com és i no es garanteix que funcioni correctament en totes les condicions. No em faig responsable dels danys que puguin resultar de l'ús d'aquesta informació. Utilitzeu-lo sota la vostra pròpia responsabilitat. Si teniu dubtes pregunteu i respondré al que pugui. Si voleu obrir proposar cambis podeu obrir fork i i voleu seguir-me, al panel del principi d'aquest readme podeu trobar links a les meves xarxes socials, Twitch i PayPal per si també voleu donar suport al meu treball.*

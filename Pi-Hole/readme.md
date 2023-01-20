@@ -14,3 +14,6 @@ Es la feina principal de la meva raspberry.
 Des de dins el contenidor i tal com ho he configurat funciona tot menys la funció de servidor DHCP, sense aquesta funció no em val la pena usar-lo aixi que de moment faig correr la app directament sobre el sistema operatiu.
 
 Quan tinqui temps ja tornaré a revisar si ho puc fer correr tot des de dins el contenidor.
+
+## Disclaimer: 
+*Aquest codi s'ofereix tal com és i no es garanteix que funcioni correctament en totes les condicions. No em faig responsable dels danys que puguin resultar de l'ús d'aquesta informació. Utilitzeu-lo sota la vostra pròpia responsabilitat. Si teniu dubtes pregunteu i respondré al que pugui. Si voleu obrir proposar cambis podeu obrir fork i i voleu seguir-me, al panel del principi d'aquest readme podeu trobar links a les meves xarxes socials, Twitch i PayPal per si també voleu donar suport al meu treball.*

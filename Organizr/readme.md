@@ -8,3 +8,6 @@
 ### Tots els serveis del teu servidor domestic en una sola URL
 
 [Organizr](https://organizr.us) o [Organizr Reddit](https://www.reddit.com/r/organizr/): Organizr integra tots els serveis de la teva xarxa en una sola web. Ja no haurem de recordar una dotzena de ips i ports diferents per accedir a tot. Avui en dia es el millor frontend per servidors domestics (o no tant domestics).
+
+## Disclaimer: 
+*Aquest codi s'ofereix tal com és i no es garanteix que funcioni correctament en totes les condicions. No em faig responsable dels danys que puguin resultar de l'ús d'aquesta informació. Utilitzeu-lo sota la vostra pròpia responsabilitat. Si teniu dubtes pregunteu i respondré al que pugui. Si voleu obrir proposar cambis podeu obrir fork i i voleu seguir-me, al panel del principi d'aquest readme podeu trobar links a les meves xarxes socials, Twitch i PayPal per si també voleu donar suport al meu treball.*
