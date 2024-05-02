@@ -1,36 +1,25 @@
-##############################################
-# NO HE ACONSEGUIT QUE FUNCIONI EL DHCP AIXÍ #
-##############################################
-
-
 version: "3"
 
-# More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
-services:
+# Més informació a https://github.com/pi-hole/docker-pi-hole/ i https://docs.pi-hole.net/
+serveis:
   pihole:
-
     container_name: pihole
     image: pihole/pihole:latest
-
-    network_mode: "host"
-#    ports:
-#     - "153:53/tcp"
-#      - "153:53/udp"
-#      - "167:67/udp"
-#      - "1180:80/tcp"
-
+    # Per al DHCP es recomana comentar tots els ports i en lloc d'això descomentar: network_mode: "host"
+#    network_mode: "host"
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp" # Només és necessari si feu servir Pi-hole com a servidor DHCP
+      - "80:80/tcp"
     environment:
       TZ: 'Europe/Andorra'
-      WEBPASSWORD: 'somesecurepassword'
-    # Volumes store your data between container upgrades
-
-    volumes:
-      - ./etc-pihole:/etc/pihole
-      - ./etc-dnsmasq.d:/etc/dnsmasq.d
-    # Recommended but not required (DHCP needs NET_ADMIN)
+      WEBPASSWORD: '${WEBPASSWORD}' # Posar la contrasenya al secrets.env
+      DHCP_ACTIVE: "false"
+      volumes:
+      - './etc-pihole:/etc/pihole'
+      - './etc-dnsmasq.d:/etc/dnsmasq.d'
     #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
-
     cap_add:
-      - NET_ADMIN
-    
+      - NET_ADMIN # Necessari si feu servir Pi-hole com a servidor DHCP, sinó no cal
     restart: unless-stopped
