@@ -1,28 +1,26 @@
 version: '2'
-
-services:
-    plex:
-        image: linuxserver/plex
-        container_name: plex
-        restart: always
-        networks:
-            - media        
-        ports:
-            - 32400:32400
-            - 32400:32400/udp
-            - 32469:32469
-            - 32469:32469/udp
-            - 5353:5353/udp
-            - 1900:1900/udp
-        volumes:
-            - /data/container/plex:/config
-            - /media/pi/MainStorage/PlexMedia/transcode:/transcode
-            - /media/pi/MainStorage/PlexMedia:/data
-        environment:
-            PUID: 1000
-            PGID: 1000
-            TZ: Europe/Andorra
-
-networks:
-    media:
-        external: true
+serveis:
+  plex:
+    container_name: plex
+    image: plexinc/pms-docker
+    restart: unless-stopped
+    ports:
+      - 32400:32400/tcp
+      - 8324:8324/tcp
+      - 32469:32469/tcp
+      - 1900:1900/udp
+      - 32410:32410/udp
+      - 32412:32412/udp
+      - 32413:32413/udp
+      - 32414:32414/udp
+    environment:
+      - PLEX_CLAIM=${PLEX_CLAIM} 
+      - ADVERTISE_IP=${ADVERTISE_IP} 
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=Europe/Andorra
+    hostname: 4XHomeServer
+    volumes:
+      - '/home/pi/plex/config:/config'
+      - '/home/pi/plex/transcode:/transcode'
+      - '/media/pi/MainStorage/PlexMedia:/data'
