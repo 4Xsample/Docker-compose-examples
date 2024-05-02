@@ -1,6 +1,5 @@
 version: "2.1"
 services:
-
   code-server:
     image: lscr.io/linuxserver/code-server
     container_name: code-server
@@ -9,9 +8,9 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Andorra
-      - PASSWORD=somesecurepassword #optional
+      - PASSWORD=${PASSWORD} #optional
 #      - HASHED_PASSWORD= #optional
-      - SUDO_PASSWORD=somesecurepassword #optional
+      - SUDO_PASSWORD=${SUDO_PASSWORD} #optional
 #      - SUDO_PASSWORD_HASH= #optional
 #      - PROXY_DOMAIN=the.proxy.domain #optional
 #      - DEFAULT_WORKSPACE=/config/workspace #optional
