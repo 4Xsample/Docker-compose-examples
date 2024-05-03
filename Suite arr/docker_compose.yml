@@ -1,0 +1,110 @@
+services:
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Andorra
+      - USER_ID=1000
+      - GROUP_ID=1000
+    volumes:
+      - /home/pi/volumes/radarr:/config
+      - /media/pi/MainStorage/PlexMedia/Movies:/movies #optional
+      - /media/pi/MainStorage/PlexMedia/Downloads:/downloads #optional
+    ports:
+      - 7878:7878
+    restart: unless-stopped
+    network_mode: host
+
+  lidarr:
+    image: lscr.io/linuxserver/lidarr:latest
+    container_name: lidarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Andorra
+      - USER_ID=1000
+      - GROUP_ID=1000
+    volumes:
+      - /home/pi/volumes/lidarr:/config
+      - /media/pi/MainStorage/PlexMedia/Musica:/music #optional
+      - /media/pi/MainStorage/PlexMedia/Downloads:/downloads #optional
+    ports:
+      - 8686:8686
+    restart: unless-stopped
+    network_mode: host
+
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Andorra
+      - USER_ID=1000
+      - GROUP_ID=1000
+    volumes:
+      - /home/pi/volumes/sonarr:/config
+      - /media/pi/MainStorage/PlexMedia/Series:/tv #optional
+      - /media/pi/MainStorage/PlexMedia/Downloads:/downloads #optional
+    ports:
+      - 8989:8989
+    restart: unless-stopped
+    network_mode: host
+
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Andorra
+      - USER_ID=1000
+      - GROUP_ID=1000
+    volumes:
+      - /home/pi/volumes/prowlarr:/config
+      - /home/pi/volumes/prowlarr:/data #optional
+    ports:
+      - 9696:9696
+    restart: unless-stopped
+    network_mode: host
+
+  qbittorrent:
+    image: lscr.io/linuxserver/qbittorrent:latest
+    container_name: qbittorrent
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Andorra
+      - WEBUI_PORT=8080
+      - USER_ID=1000
+      - GROUP_ID=1000
+    volumes:
+      - /home/pi/volumes:/config
+      - /media/pi/MainStorage/rtorrent:/downloads
+      - /media/pi/MainStorage/PlexMedia:/uploads
+    ports:
+      - 8080:8080
+      - 6881:6881
+      - 6881:6881/udp
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+    
+  tautulli:
+    image: lscr.io/linuxserver/tautulli:latest
+    container_name: tautulli
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Andorra
+      - USER_ID=1000
+      - GROUP_ID=1000
+    volumes:
+      - /home/pi/volumes/tautulli:/config
+    ports:
+      - 8181:8181
+    restart: unless-stopped
+    network_mode: host
+    
