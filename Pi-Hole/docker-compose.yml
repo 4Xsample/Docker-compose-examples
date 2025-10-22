@@ -1,7 +1,7 @@
 version: "3"
 
 # Més informació a https://github.com/pi-hole/docker-pi-hole/ i https://docs.pi-hole.net/
-serveis:
+services:
   pihole:
     container_name: pihole
     image: pihole/pihole:latest
@@ -16,7 +16,7 @@ serveis:
       TZ: 'Europe/Andorra'
       WEBPASSWORD: '${WEBPASSWORD}' # Posar la contrasenya al secrets.env
       DHCP_ACTIVE: "false"
-      volumes:
+    volumes:
       - './etc-pihole:/etc/pihole'
       - './etc-dnsmasq.d:/etc/dnsmasq.d'
     #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
